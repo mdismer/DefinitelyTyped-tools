@@ -1,3 +1,11 @@
 {
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "azureFunctions.deploySubpath": "packages/publisher",
+  "azureFunctions.postDeployTask": "npm install (functions)",
+  "azureFunctions.projectLanguage": "TypeScript",
+  "azureFunctions.projectRuntime": "~4",
+  "debug.internalConsoleOptions": "neverOpen",
+  "azureFunctions.projectLanguageModel": 3,
+  "azureFunctions.projectSubpath": "packages/publisher",
+  "azureFunctions.preDeployTask": "npm prune (functions)",
 }
